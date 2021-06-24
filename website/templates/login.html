@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<!-- Defining login form -->
+<form action="" method="post">
+    <h3 class="text-center my-4">Login to your Registerd Account</h3>
+
+    <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your registered email">
+    </div>
+
+    <div class="mb-3">
+        <label for="pwd" class="form-label">Enter Password</label>
+        <input type="password" class="form-control" id="pwd" name="password" placeholder="Enter your password">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+{% endblock %}
