@@ -1,4 +1,4 @@
-.vscode
+.vscode/
 website/__pycache__
 website/database.db
 *.py[cod]
